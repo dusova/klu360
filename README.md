@@ -1,7 +1,7 @@
 # Kırklareli Üniversitesi 360° Sanal Tur
 
 <p align="center">
-  <img src="https://seeklogo.com/images/K/kirklareli-universitesi-logo-530A8D89C0-seeklogo.com.png" alt="Kırklareli Üniversitesi 360° Sanal Tur Logo" width="400"/>
+  <img src="logo.png" alt="Kırklareli Üniversitesi 360° Sanal Tur Logo" width="400"/>
 </p>
 
 <p align="center">
