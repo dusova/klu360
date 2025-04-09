@@ -1,0 +1,384 @@
+
+
+
+@media (hover: none) and (pointer: coarse) {
+    
+    
+    
+    .campus-card {
+        cursor: default; 
+    }
+    
+    .campus-card .tour-button, 
+    .feature-card, 
+    .creator-card, 
+    .social-icon,
+    .explore-btn {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .campus-card .tour-button:active, 
+    .feature-card:active, 
+    .creator-card:active, 
+    .social-icon:active,
+    .explore-btn:active {
+        transform: scale(0.96);
+    }
+    
+    
+    .scroll-indicator {
+        bottom: 25px;
+        padding: 15px;
+    }
+    
+    
+    .touch-hint {
+        display: block;
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.8rem;
+        text-align: center;
+        animation: fadeInOut 2s infinite;
+    }
+    
+    @keyframes fadeInOut {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+    }
+    
+    
+    
+    
+    .tour-interface .control-btn,
+    .tour-interface .action-btn,
+    .tour-interface .nav-button {
+        min-width: 44px;
+        min-height: 44px;
+    }
+    
+    
+    .scene-carousel {
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .scene-item {
+        scroll-snap-align: center;
+        touch-action: pan-x;
+    }
+    
+    
+    .custom-hotspot {
+        min-width: 48px;
+        min-height: 48px;
+    }
+    
+    
+    .info-body {
+        position: relative;
+    }
+    
+    .info-body::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 20px;
+        background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .info-body.scrollable::after {
+        opacity: 1;
+    }
+    
+    
+    .pnlm-fullscreen-toggle-button {
+        width: 44px !important;
+        height: 44px !important;
+    }
+    
+    
+    @media (max-height: 600px) and (orientation: landscape) {
+        .tour-header {
+            padding: 10px;
+        }
+        
+        .scene-navigation {
+            bottom: 10px;
+        }
+        
+        .navigation-container {
+            padding: 8px;
+        }
+        
+        .side-controls {
+            top: auto;
+            bottom: 20px;
+            left: 20px;
+            transform: none;
+            flex-direction: row;
+        }
+        
+        .campus-map.visible {
+            bottom: 80px;
+        }
+    }
+}
+
+
+@media (max-width: 380px) {
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .explore-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+    
+    .feature-title {
+        font-size: 1.2rem;
+    }
+    
+    .campus-title {
+        font-size: 1.3rem;
+    }
+    
+    .creator-avatar {
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+    .tour-header .campus-name {
+        font-size: 0.9rem;
+    }
+    
+    .logo-img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .action-btn {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .control-btn {
+        width: 38px;
+        height: 38px;
+    }
+    
+    .scene-item {
+        width: 90px;
+        height: 50px;
+    }
+    
+    .scene-label {
+        font-size: 0.7rem;
+    }
+    
+    .info-title {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .university-logo {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .hero-title {
+        font-size: 4rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.7rem;
+    }
+    
+    .explore-btn {
+        padding: 18px 45px;
+        font-size: 1.2rem;
+    }
+    
+    .section-title h2 {
+        font-size: 3rem;
+    }
+    
+    .campus-card {
+        transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s;
+    }
+    
+    .campus-card:hover {
+        transform: translateY(-15px) scale(1.02);
+    }
+    
+    .campus-image {
+        height: 280px;
+    }
+    
+    .creator-avatar {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+    .campus-cards .col-md-4 {
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+    
+    .feature-card {
+        height: calc(100% - 30px);
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
+    .campus-image {
+        height: 200px;
+    }
+    
+    .feature-icon-large {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (hover: none) {
+    
+    .campus-card,
+    .feature-card,
+    .creator-card,
+    .gallery-img,
+    .scene-item,
+    .custom-hotspot,
+    .tour-button,
+    .control-btn,
+    .action-btn,
+    .nav-button {
+        -webkit-tap-highlight-color: transparent;
+        transform: translateZ(0);
+        will-change: transform;
+    }
+    
+    
+    @media (prefers-color-scheme: dark) {
+        .scene-info-panel,
+        .map-card {
+            background-color: rgba(30, 30, 30, 0.95);
+        }
+        
+        .scene-info-panel .info-body,
+        .map-card .map-content {
+            color: #e0e0e0;
+        }
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .tour-button:hover i,
+    .explore-btn:hover i {
+        transform: none !important;
+    }
+    
+    .campus-card:hover .campus-thumbnail,
+    .scene-item:hover .scene-thumbnail,
+    .campus-card:hover .campus-image img {
+        transform: none !important;
+    }
+    
+    .map-marker:hover,
+    .creator-card:hover,
+    .feature-card:hover,
+    .social-icon:hover {
+        transform: none !important;
+    }
+    
+    .creator-card:hover .creator-avatar img {
+        transform: none !important;
+    }
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.keyboard-focus:focus {
+    outline: 3px solid #ffc845 !important;
+    outline-offset: 3px !important;
+}
+
+
+.scene-item:focus-visible,
+.campus-card:focus-visible,
+.feature-card:focus-visible,
+.creator-card:focus-visible,
+.tour-button:focus-visible,
+.control-btn:focus-visible,
+.action-btn:focus-visible,
+.explore-btn:focus-visible,
+.nav-button:focus-visible {
+    outline: 3px solid #ffc845;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 3px rgba(255, 200, 69, 0.5);
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+
+.safari-fix {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
