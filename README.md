@@ -116,7 +116,7 @@ Admin paneli üzerinden kampüs, sahne ve hotspot yönetimi yapabilir, kullanıc
 
 ## Lisans
 
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
+Bu proje [Apache 2.0 Lisansı](LICENSE) altında lisanslanmıştır.
 
 ## İletişim
 
