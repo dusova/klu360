@@ -62,7 +62,7 @@ Kırklareli Üniversitesi 360° Sanal Tur uygulaması, üniversitemizin kampüsl
 Sanal tur uygulamasına erişmek için web tarayıcınızda aşağıdaki adresi ziyaret edin:
 
 ```
-https://sanal.kirklareli.edu.tr
+https://siteadresi.com/
 ```
 
 veya üniversitemizin ana sayfasındaki "Sanal Tur" bağlantısına tıklayın.
@@ -156,34 +156,7 @@ Hotspotlar, panoramik görüntüler üzerinde bulunan etkileşimli noktalardır.
 - **Normal Mod:** Varsayılan görüntüleme modu
 - **Tam Ekran Modu:** <i class="bi bi-fullscreen"></i> butonuna tıklayarak tam ekran modunu etkinleştirebilirsiniz
 
-### Görüş Açısı Ayarları
-
-- **Görüş Açısı (FOV):** Yan paneldeki kaydırıcı ile görüş açısını değiştirebilirsiniz
-  - Düşük değerler: Daha yakın görünüm (telefoto lens etkisi)
-  - Yüksek değerler: Daha geniş görünüm (geniş açı lens etkisi)
-
-### Özel Görünüm Modları
-
-- **Küre Modu:** Panoramayı küresel bir dünyada geziniyormuş gibi görüntüler
-- **Little Planet Modu:** Panoramayı küçük bir gezegen gibi görüntüler (kutuplaştırılmış projeksiyon)
-
 ## Mobil Cihazlarda Kullanım
-
-### Jiroskop Kontrolü
-
-Mobil cihazınızda jiroskop sensörü varsa, cihazınızı hareket ettirerek panoramayı kontrol edebilirsiniz:
-
-1. Sanal tur arayüzünde <i class="bi bi-gyroscope"></i> butonuna tıklayın
-2. İzin istenirse, jiroskop erişimine izin verin
-3. Artık cihazınızı hareket ettirerek çevrenizdeki panoramayı görebilirsiniz
-
-### Sanal Gerçeklik (VR) Modu
-
-Sanal gerçeklik gözlüğü ile daha sürükleyici bir deneyim için:
-
-1. <i class="bi bi-badge-vr"></i> butonuna tıklayın
-2. Telefonunuzu VR gözlüğüne yerleştirin
-3. Gözlüğün içinden bakarak 360° panoramayı tam olarak deneyimleyin
 
 ### Mobil Performans İpuçları
 
@@ -213,8 +186,6 @@ C: Tarayıcınızın JavaScript'i desteklediğinden ve WebGL'in etkinleştirildi
 **S: Görüntüler bulanık, nasıl düzeltebilirim?**  
 C: İnternet bağlantınızın hızını kontrol edin. Ayrıca yan panelden görüntü kalitesi ayarını yükseltebilirsiniz.
 
-**S: Jiroskop kontrolü çalışmıyor, neden?**  
-C: Cihazınızın jiroskop sensörüne sahip olduğundan emin olun. Ayrıca tarayıcı izinlerinde sensör erişimine izin verdiğinizden emin olun.
 
 ## Sorun Giderme
 
@@ -274,16 +245,15 @@ C: Cihazınızın jiroskop sensörüne sahip olduğundan emin olun. Ayrıca tara
 
 Teknik sorunlar yaşıyorsanız veya yardıma ihtiyacınız varsa:
 
-- **E-posta:** sanaltur@kirklareli.edu.tr
-- **Telefon:** +90 288 XXX XX XX
+- **E-posta:** [bidb@klu.edu.tr](mailto:bidb@klu.edu.tr)
+- **Telefon:** +90 288 212 96 81
 - **Çalışma Saatleri:** Pazartesi-Cuma, 09:00-17:00
 
 ### Geri Bildirim
 
 Sanal tur deneyiminiz hakkında geri bildirimde bulunmak veya önerilerde bulunmak için:
 
-- **Geri Bildirim Formu:** Ana sayfadaki "Geri Bildirim" butonunu kullanabilirsiniz
-- **E-posta:** feedback@kirklareli.edu.tr
+- **E-posta:** feedback@mdusova.com
 
 ### Sosyal Medya
 
