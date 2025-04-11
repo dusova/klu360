@@ -93,7 +93,7 @@ Detaylı kurulum talimatları için [Teknik Dökümantasyon](technicDoc.md) belg
 
 Sanal tur uygulamasına aşağıdaki adresten erişebilirsiniz:
 ```
-https://sanal.kirklareli.edu.tr
+https://siteadresi.com/
 ```
 
 Ana sayfada mevcut kampüslerin listesini görecek ve istediğiniz kampüsü seçerek sanal tura başlayabileceksiniz. Detaylı kullanım bilgileri için [Kullanım Kılavuzu](userGuide.md) belgesini inceleyebilirsiniz.
@@ -102,7 +102,7 @@ Ana sayfada mevcut kampüslerin listesini görecek ve istediğiniz kampüsü se�
 
 Admin paneline aşağıdaki adresten erişebilirsiniz:
 ```
-https://sanal.kirklareli.edu.tr/admin
+https://siteadresi.com/admin
 ```
 
 Admin paneli üzerinden kampüs, sahne ve hotspot yönetimi yapabilir, kullanıcıları düzenleyebilir ve ziyaretçi istatistiklerini görüntüleyebilirsiniz. Detaylı bilgi için [Admin Panel Dökümantasyonu](adminPanelDoc.md) belgesini inceleyebilirsiniz.
@@ -120,6 +120,6 @@ Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
 
 ## İletişim
 
-- **E-posta:** sanaltur@kirklareli.edu.tr
-- **Web:** https://sanal.kirklareli.edu.tr
-- **Adres:** Kırklareli Üniversitesi, Merkez Kampüsü, 39100 Kırklareli
+- **E-posta:** [info@mdusova.com](mailto:info@mdusova.com)
+- **Web:** [mdusova.com](https://mdusova.com/)
+- **Adres:** Kırklareli Üniversitesi Teknik Bilimler Meslek Yüksekokulu, Karahıdır Mahallesi Harmanlık Mevkii 39100 Kırklareli
