@@ -4,7 +4,7 @@ Bu dökümantasyon, Kırklareli Üniversitesi 360° Sanal Tur projesinin kapsaml
 
 **Versiyon:** 1.0  
 **Son Güncelleme:** Nisan 2025  
-**Hazırlayan:** Teknik Dokümantasyon Ekibi
+**Hazırlayan:** Mustafa Arda DÜŞOVA
 
 ## İçindekiler
 
@@ -666,17 +666,17 @@ Projeye değerli katkılarda bulunan diğer kişi ve birimler:
 
 ### Proje İletişim
 
-- **E-posta:** sanaltur@kirklareli.edu.tr
-- **Telefon:** +90 288 XXX XX XX
-- **Web:** https://sanal.kirklareli.edu.tr
-- **Adres:** Kırklareli Üniversitesi, Merkez Kampüsü, 39100 Kırklareli
+- **E-posta:** info@mdusova.com
+- **Telefon:** +90 530 743 22 39
+- **Web:** https://mdusova.com/
+- **Adres:** Kırklareli Üniversitesi Teknik Bilimler Meslek Yüksekokulu, Karahıdır Mahallesi Harmanlık Mevkii 39100 Kırklareli
 
 ### Teknik Destek
 
-- **E-posta:** destek@kirklareli.edu.tr
-- **Telefon:** +90 288 XXX XX XX (Dahili: 1234)
+- **E-posta:** bibd@klu.edu.tr
+- **Telefon:** +90 288 212 96 81
 - **Çalışma Saatleri:** Pazartesi-Cuma, 09:00-17:00
-- **Destek Talebi:** https://sanal.kirklareli.edu.tr/destek
+- **Destek Talebi:** [https://github.com/dusova/klu360/issues](https://github.com/dusova/klu360/issues)
 
 ### Sosyal Medya Hesapları
 
@@ -688,5 +688,5 @@ Projeye değerli katkılarda bulunan diğer kişi ve birimler:
 ### Güncellemeler ve Duyurular
 
 Projeyle ilgili güncellemeler ve duyurular için:
-- https://sanal.kirklareli.edu.tr/duyurular
-- Üniversite ana sayfası: https://www.kirklareli.edu.tr
+- [https://github.com/dusova/klu360/releases](https://github.com/dusova/klu360/releases)
+- Üniversite ana sayfası: [https://klu.edu.tr/](https://klu.edu.tr/)
