@@ -1,4 +1,4 @@
-# Kırklareli Üniversitesi 360° Sanal Tur
+<h1 align=center> Kırklareli Üniversitesi 360° Sanal Tur</h1>
 
 <p align="center">
   <img src="logo.png" alt="Kırklareli Üniversitesi 360° Sanal Tur Logo" width="400"/>
