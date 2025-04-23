@@ -22,7 +22,7 @@ for (let i = 0; i < days; i++) {
 }
 
 // Push the changes to GitHub
-execSync("git push origin main");
+execSync("git push origin main --force");
 
 // Clean up
 fs.unlinkSync("temp.txt");
