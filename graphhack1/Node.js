@@ -1,5 +1,5 @@
-const { execSync } = require("child_process");
-const fs = require("fs");
+import { execSync } from "child_process";
+import fs from "fs";
 
 const makeCommit = (date) => {
   // Create a random message
@@ -22,7 +22,7 @@ for (let i = 0; i < days; i++) {
 }
 
 // Push the changes to GitHub
-execSync("git push origin main --force");
+execSync("git push origin master --force");
 
 // Clean up
 fs.unlinkSync("temp.txt");
