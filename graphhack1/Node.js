@@ -22,7 +22,7 @@ for (let i = 0; i < days; i++) {
 }
 
 // Push the changes to GitHub
-execSync("git push origin main"); // Push changes to the master branch (or replace 'master' with your actual branch name)
+execSync("git push origin master"); // Push changes to the master branch (or replace 'master' with your actual branch name)
 
 // Clean up
 fs.unlinkSync("temp.txt");
